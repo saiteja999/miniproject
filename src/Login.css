@@ -93,3 +93,73 @@
   margin-top: 15px;
   text-transform: uppercase;
 }
+
+@media (min-width:320px) and (max-width:640px) {
+  .sai {
+    display: flex;
+    flex-direction:column;
+    margin-top:24px
+  }
+  .sai img {
+    min-width: 350px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .sai .btn {
+    width:100%;
+    font-size:14px
+  }
+
+  .sai .accordion {
+    min-width: 80vw;
+  }
+
+  .sai .card-body {
+    font-size:13px;
+  }
+
+  .sai .text-muted {
+    font-size:22px
+  }
+
+  .contact .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .header {
+    width: 100%;
+    max-width:100vw !important;
+    height: 200px;
+  }
+
+  .contact .header img {
+   width: 150px;
+   height: 150px;
+    margin-bottom: 12px;
+  }
+
+  .contact .header span {
+    margin-top:12px;
+    font-size:16px;
+  }
+
+  .contact .contact-section {
+    width: 100vw;
+    height:300px;
+  }
+
+  .contact .contact-section img {
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    object-fit:fill
+  }
+  .chat {
+    width:90vw !important;
+    height: 90vw !important;
+    bottom:100px !important;
+    right:20px !important;
+  }
+}
